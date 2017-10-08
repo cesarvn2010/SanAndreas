@@ -7,8 +7,8 @@ package gtasanandreas.lugares;
 
 import gtasanandreas.decorator.Arma;
 import gtasanandreas.decorator.PistolaTaurus;
-import gtasanandreas.decorator.TaurusComMira;
-import gtasanandreas.decorator.TaurusComSilenciador;
+import gtasanandreas.decorator.MiraLaser;
+import gtasanandreas.decorator.Silenciador;
 
 /**
  *
@@ -23,12 +23,12 @@ public class Ammu_Nation {
     }
 
     public void EquiparTaurusComSilenciador() {
-      a = new TaurusComSilenciador(a);
+      a = new Silenciador(a);
       a.montar();
     }
     
     public void EquiparTauruscomMira() {
-      a = new TaurusComMira(a);
+      a = new MiraLaser(a);
       a.montar(); 
     }
 }

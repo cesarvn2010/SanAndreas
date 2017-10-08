@@ -5,8 +5,6 @@
  */
 package gtasanandreas.strategy;
 
-import gtasanandreas.Personagem;
-
 /**
  *
  * @author Cesar Murilo

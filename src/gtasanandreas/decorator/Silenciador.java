@@ -9,9 +9,9 @@ package gtasanandreas.decorator;
  *
  * @author a15038480
  */
-public class TaurusComSilenciador extends ArmaDecorator {
+public class Silenciador extends ArmaDecorator {
 
-    public TaurusComSilenciador(Arma arma){
+    public Silenciador(Arma arma){
         super(arma);
     }
     

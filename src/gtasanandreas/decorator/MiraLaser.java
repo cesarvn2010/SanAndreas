@@ -9,9 +9,9 @@ package gtasanandreas.decorator;
  *
  * @author a15038480
  */
-public class TaurusComMira extends ArmaDecorator {
+public class MiraLaser extends ArmaDecorator {
     
-    public TaurusComMira(Arma arma){
+    public MiraLaser(Arma arma){
         /* Quando temos objetos e fazemos que uma classe herde
         as características de outra, usando "extends", é
         necessário criarmos os construtores, porém muitos 
