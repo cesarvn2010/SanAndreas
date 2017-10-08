@@ -1,11 +1,19 @@
 San Andreas – Com Java e 4 designs patterns
 
+Autor: César Murilo
+ 
 
- Este projeto em Java é bem simples e utiliza 4 designs patterns, sendo eles:
+Propósito
+
+	O objetivo deste projeto é aplicar alguns conhecimentos de padrões de projeto adquiridos e na linguagem de programação que achar melhor. Eu escolhi Java.
+      É um projeto bem simples e utiliza 4 designs patterns, sendo eles:
 * Strategy
 * Adapter
 * Decorator
 * Memento
+
+
+Padrões de Projeto aplicados
 
 
 Strategy
@@ -20,6 +28,10 @@ Adapter
 Decorator
 
 	O padrão Decorator foi utilizado para equipar o objeto arma com acessórios, como mira a laser e silenciador. 
+	A vantagem de utilizar este padrão é que é possível estender uma classe com novas funcionalidades, sem, no entanto, estar modificando a classe principal. 
 
+Memento
+
+ A vantagem de utilizar o padrão Memento é que ele permite recuperar estados quando necessário. Sendo assim, em um jogo é normal que o jogador queira salvar e estar carregando estados. 
 
 
