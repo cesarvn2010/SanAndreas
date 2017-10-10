@@ -43,7 +43,7 @@ public class GTASanAndreas {
         save.setState("Missão 1 completada");
         savedStates.add(save.saveState());
         //travo o tempo de execução propositalmente para 
-        //poder mostrar a diferença de segundos do estado do Save
+        //poder simular o tempo de um saving no jogo...
         sleep(3000);
         System.out.println("");
         
@@ -81,18 +81,10 @@ public class GTASanAndreas {
         System.out.println("_ Vou ter que carregar meu último save...");
         System.out.println("------------------------------------");
         System.out.println("Carregando jogo...");
+        //travo o tempo de execução propositalmente para 
+        //poder simular o tempo de um loading no jogo...
         sleep(3000);
         save.restoreState(savedStates.get(1));
-       
-        
-        //Misturando Strategy com Observer
-        //BigSmoke bs = new BigSmoke();
-        //System.out.print(bs.getNome() + " está com "); 
-        //bs.mostraVida();
-        //Acao atirar = new Atirar();
-        //bs.setModo(atirar);
-        //System.out.print(bs.getNome()+" está ");
-        //bs.executarAcao();
    
     }
     

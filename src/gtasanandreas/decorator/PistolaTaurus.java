@@ -5,8 +5,6 @@
  */
 package gtasanandreas.decorator;
 
-import gtasanandreas.Personagem;
-
 /**
  *
  * @author a15038480

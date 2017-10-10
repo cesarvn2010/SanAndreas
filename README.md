@@ -33,7 +33,7 @@ Autor: César Murilo
 ### Decorator
 
    O padrão Decorator foi utilizado para equipar o objeto arma com acessórios, como mira a laser e silenciador. 
-   A vantagem de utilizar este padrão é que é possível estender uma classe com novas funcionalidades, sem, no entanto, estar modificando funcionalidades desta. 
+   A vantagem de utilizar este padrão é que é possível estender uma classe com novas funcionalidades. 
 
 ### Memento
 
