@@ -15,7 +15,7 @@ Autor: César Murilo
 
 ## Cenário
 
-  O projeto foi pensando em cima do jogo GTA San Andreas, onde há os personagens e seu comportamentos, as armas, veículos, lugares, etc... 
+  O projeto foi pensado em cima do jogo GTA San Andreas, onde há os personagens e seu comportamentos, as armas, veículos, lugares, etc... 
 
 
 ## Padrões de Projeto aplicados
